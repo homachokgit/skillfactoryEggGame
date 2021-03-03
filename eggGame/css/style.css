@@ -1,0 +1,159 @@
+@font-face{
+    src: url(../fonts/Open_Sans/OpenSans-Bold.ttf);
+    font-family: 'openSansBold';
+}
+@font-face{
+    src: url(../fonts/Open_Sans/OpenSans-Regular.ttf);
+    font-family: 'openSans';
+}
+#background{
+    background-color: rgb(53, 42, 42);
+    height: 1000px;
+    padding: 0px 30px;
+}
+#container{
+    margin: auto;
+    padding: 20px;
+}
+#text, #textHtml{
+    color: white;
+    font-size: 17px;
+    font-family: "openSans";
+}
+#text{
+    line-height: 27px;
+}
+#mean{
+    border: gold 2px solid;
+    border-radius: 3px;
+    color: gold;
+    font-family: "openSans";
+    padding: 0px 6px;
+    transition-duration: 0.3s;
+}
+#mean:hover{
+    border-color: purple;
+    transition-duration: 0.3s;
+}
+#left{
+    padding: 0px;
+}
+#left li{
+    margin: 5px 0px;
+    padding: 0px;
+}
+#left input{
+    border-radius: 4px;
+    font-family: "openSans";
+    font-style: italic;
+}
+#left input:hover{
+    opacity: 0.9;
+}
+#left input::placeholder{
+    color: black;
+}
+#left li:nth-child(1){
+   margin-top: 0px;
+}
+#bottom{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+#right{
+    width: 800px;
+}
+#but{
+    border-color: gold;
+    background: none;
+    border-radius: 10px;
+    transition-duration: 0.3s;
+    margin-bottom: 20px;
+}
+#but:hover{
+    border-color: purple;
+    transition-duration: 0.3s;
+}
+#text1{
+    color: white;
+    font-size: 20px;
+    font-family: "openSans";
+    margin: 10px;
+}
+#title{
+    margin: auto;
+    font-size: 45px;
+    width: 442px;
+    padding: 30px 0px;
+    font-family: "openSansBold";
+    color: gold;   
+}
+#btnCenter{
+    width: 95px;
+    margin: auto;
+}
+#buttonModal{
+    color: gold;
+    transition-duration: 0.3s;
+    padding: 5px;
+    border: gold 2px solid;
+}
+#buttonModal:hover{
+    border-color: purple;
+    transition-duration: 0.3s;
+}
+#close{
+    width: 15px;
+    padding: 0px;
+    border: none;
+    position: absolute;
+    right: 0px;
+    background-color: white;
+    transition-duration: 0.2s;
+}
+#close:hover{
+    background-color: rgb(209, 209, 209);
+    transition-duration: 0.2s;  
+}
+#modalText{
+    font-family: "openSans";
+}
+#modalH2{
+    font-size: 30px;
+    font-family: "openSansBold";
+}
+#titleModal{
+    display: flex;
+}
+#eggModal{
+    position: relative;
+    top: 4px;
+    left: 5px;
+    height: 30px;
+}
+@media screen and (max-width: 472px){
+    #title{
+        font-size: 40px;
+        width: 393px;
+    }
+}
+@media screen and (max-width:320px){
+    #title{
+        font-size: 25px;
+        width: 248px;
+    }
+}
+@media screen and (max-width:400px){
+    #title{
+        font-size: 33px;
+        width: 325px;                                                                                         
+    }
+}
+@media screen and (max-width: 440px){
+    #title{
+          font-size: 35px;
+          width: 345px;
+    }
+}

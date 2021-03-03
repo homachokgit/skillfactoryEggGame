@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="icon" href="img/iconEgg.svg">
+    <title>eggGame</title>
+</head>
+<body>
+    <div id="background">
+            <h1 id="title">игра курочка ряба</h1>
+            <div id="btnCenter">
+                <button type="button" class="btn" data-toggle="modal" data-target=".modal" id="buttonModal">
+                    Инструкция
+                </button>
+            </div>
+              <div class="modal">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                      <button type="button"data-dismiss="modal" id="close">
+                        <span>&times;</span>
+                      </button>
+                    <div id="titleModal">   
+                        <h2 id="modalH2">Инструкция</h2>
+                        <img src="img/iconEgg.svg" alt="#" id="eggModal">
+                    </div>
+                    <p id="modalText">Я предлогаю вам попробовать вспомнить текст старой сказки о курочке рябе.</p>
+                    <p id="modalText">Сверху вы можете видеть текст с пропусками и вам необходимо их заполнить для этого введите в поле по названию соответствующее пропуску значение пропуска. проделайте это со всеми полями и нажмите на кнопку "Создать текст", а если вы захотите поменять значение пропусков то измените их в полях и нажмите на "заменить переменные". Всем хорошего время препровождения!</p>
+                  </div>
+                </div>
+              </div>
+        <div id="container">
+            <div id="top">
+                <span id="text">Жили-были</span>
+                <span id="mean">1</span>
+                <span id="text">да</span>
+                <span id="mean">2</span>
+                <span id="text">, была у них</span>
+                <span id="mean">3</span>
+                <span id="text">снесла</span>
+                <span id="mean">3</span>
+                <span id="mean">4</span>
+                <span id="text">, не простое - золотое, -</span>
+                <span id="mean">1</span>
+                <span id="text">бил, бил - не разбил, -</span>
+                <span id="mean">2</span>
+                <span id="text">била, била - не разбила,</span>
+                <span id="mean">5</span>
+                <span id="text">бежала,</span>
+                <span id="mean">6</span>
+                <span id="text">задела,</span>
+                <span id="mean">4</span>
+                <span id="text">упала и разбилось,</span>
+                <span id="mean">1</span>
+                <span id="text">плачет,</span>
+                <span id="mean">2</span>
+                <span id="text">плачет, а</span>
+                <span id="mean">3</span>
+                <span id="кудахчет:"></span>
+                <span id="mean">speach</span>
+            </div>
+            <div id="bottom">
+                <ul id="left">
+                    <li><input type="text" placeholder="1" id="Inp1"></li>
+                    <li><input type="text" placeholder="2" id="Inp2"></li>
+                    <li><input type="text" placeholder="3" id="Inp3"></li>
+                    <li><input type="text" placeholder="4" id="Inp4"></li>
+                    <li><input type="text" placeholder="5" id="Inp5"></li>
+                    <li><input type="text" placeholder="6" id="Inp6"></li>
+                    <li><input type="text" placeholder="speach" id="InpSpeach"></li>
+                </ul>
+                <div id="right">
+                    <p id="textHtml">Привет тому кто это читает! Незнаю сделал ли я то что нужно, но я старался честно)</p>
+                    <button id="but"><p id="text1">Создать текст</p></button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="js/jquery.js"></script>
+</body>
+</html>
